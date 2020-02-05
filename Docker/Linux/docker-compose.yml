@@ -4,7 +4,7 @@ services:
 
    nginx:
      image: store/softwareag/zementis-modeler-nginx:1.38.2
-     container_name: nginx_zmod
+     container_name: nginx_mlw
      ports:
        - "80:80"
      networks:
