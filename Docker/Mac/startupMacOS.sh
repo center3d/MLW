@@ -1,10 +1,10 @@
-mkdir ~/.zmod
-cp docker-compose.yml ~/.zmod/
-cp ZMODMacOS.sh ~/.zmod/
-cp .env ~/.zmod/
-sed -i '' -e "/alias ZMOD=/d" ~/.bashrc 
-sed -i '' -e "/alias zmod=/d" ~/.bashrc
-echo alias ZMOD="~/.zmod/ZMOD.sh" >> ~/.bashrc
-echo alias zmod="~/.zmod/ZMOD.sh" >> ~/.bashrc
-chmod +x ~/.zmod/ZMOD.sh
+mkdir ~/.mlw
+cp docker-compose.yml ~/.mlw/
+cp mlwMacOS.sh ~/.mlw/
+cp .env ~/.mlw/
+sed -i '' -e "/alias mlw=/d" ~/.bashrc
+sed -i '' -e "/alias mlw=/d" ~/.bashrc
+echo alias mlw="~/.mlw/mlw.sh" >> ~/.bashrc
+echo alias mlw="~/.mlw/mlw.sh" >> ~/.bashrc
+chmod +x ~/.mlw/mlwMacOS.sh
 source ~/.bashrc
